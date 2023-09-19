@@ -506,7 +506,6 @@ h6 {
   border: 0.1rem solid;
   border-radius: 10px;
   background-color: #009abb;
-  padding: 5px;
   margin: 10px;
   box-shadow: 10px 10px rgba(128, 128, 128, 0.5);
 }
@@ -514,6 +513,7 @@ h6 {
 .card-list img{
   max-width: 50%;
 }
+
 .card-list .title{
   border: 0.1rem solid;
   border-radius: 10px;
@@ -690,7 +690,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f6f9fe;
+  background-color: #e7e7e6;
 }
 
 .section-title {
@@ -988,6 +988,40 @@ section {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
 }
+
+/*--------------------------------------------------------------
+# Data
+--------------------------------------------------------------*/
+.data {
+  text-align: center;
+  /* background-color: #e7e7e6; */
+  padding: 0;
+}
+
+.data .container .row{
+  padding: 50px;
+}
+
+.btn-semua-data {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 8px 20px;
+  margin: 0;
+  background: #0a8680;
+  color: white;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 50px;
+  position: absolute;
+  right: 0;
+  top: -10;
+}
+
+.data img {
+  max-width: 45%;
+}
+
 
 /*--------------------------------------------------------------
 # Clients
