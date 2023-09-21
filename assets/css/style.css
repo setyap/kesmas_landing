@@ -1063,6 +1063,52 @@ section {
   padding: 25px 15px;
 }
 
+.news .download {
+  padding: 20px;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(16, 110, 234, 0.15);
+}
+
+.download .form{
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #46c9c4;
+  box-shadow: 0px 2px 15px rgba(16, 110, 234, 0.15);
+}
+
+.download .list-dokumen {
+  margin-top: 10px;
+}
+
+.download .list-item{
+  border-bottom: 1px solid grey;
+  padding: 10px 0px 0px 0px;
+  justify-content: center;
+}
+
+.download .list-item img{
+  max-width: 100%;
+}
+
+.download .list-item p{
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+
+.btn {
+  padding: 5px 20px;
+  background-color: #d2dc02;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #b5bf01;
+}
+
+
+
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
@@ -1811,11 +1857,10 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #fff;
+  background: #10938d;
   padding: 0 0 30px 0;
-  color: #444444;
+  color: white;
   font-size: 14px;
-  background: #f1f6fe;
 }
 
 #footer .footer-newsletter {
@@ -1871,12 +1916,15 @@ section {
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #fff;
+  background: #10938d;
 }
 
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
 }
+
+#footer .footer-top .footer-contact img{
+max-width: 50%;}
 
 #footer .footer-top .footer-contact h3 {
   font-size: 24px;
@@ -1895,13 +1943,13 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Roboto", sans-serif;
-  color: #777777;
+  color: #ffffff;
 }
 
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #444444;
+  color: #ffffff;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1918,7 +1966,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #10938d;
+  color: #ffea00;
   font-size: 18px;
   line-height: 1;
 }
@@ -1934,7 +1982,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #777777;
+  color: #ffea00;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -1948,7 +1996,7 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #10938d;
+  background: #106eea;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1968,7 +2016,6 @@ section {
 
 #footer .copyright {
   text-align: center;
-  float: left;
 }
 
 #footer .credits {
@@ -1986,4 +2033,53 @@ section {
     text-align: center;
     padding: 2px 0;
   }
+}
+
+.section-title1 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title1 h3 {
+  margin: 15px 0 0 0;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.kampanye .box {
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(16, 110, 234, 0.15);
+}
+
+.kampanye .box .member-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.kampanye .box .member-info {
+  padding: 25px 15px;
+}
+
+.kampanye .box .member-info h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #222222;
+}
+
+.kampanye .box .member-info span {
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  color: #aaaaaa;
+}
+
+.kampanye .box .member-info p {
+  font-style: italic;
+  font-size: 14px;
+  line-height: 26px;
+  color: #777777;
 }
